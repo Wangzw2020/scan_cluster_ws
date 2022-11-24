@@ -1,0 +1,21 @@
+<!-- -->
+
+<launch>
+	<node pkg="scan_cluster" type="scan_cluster_node" name="scan_cluster_node" output="screen">
+		<param name ="scan_sub_topic" value="/scan"/>
+		<param name ="cluster_pub_topic" value="/clusters"/>
+		<param name ="left_edge" value="-1"/>
+		<param name ="right_edge" value="1"/>
+		<param name ="front_edge" value="5"/>
+		<param name ="behind_edge" value="-0.1"/>
+		<param name ="max_distance" value="10"/>
+		<param name ="left_angle" value="-1.57"/>
+		<param name ="right_angle" value="1.57"/>
+		<param name ="Eps" value="0.03"/>
+		<param name ="Minpts" value="4"/>
+		<param name ="Maxpts" value="50"/>
+		<param name ="show_points" value="false"/>
+	</node>
+
+</launch>
+

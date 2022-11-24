@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package>
+  <name>scan_cluster</name>
+  <version>0.9.0</version>
+  <description>scan cluster package</description>
+
+  <maintainer email="david.hodo@is4s.com">David Hodo</maintainer>
+
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>BSD</license>
+
+  <author email="david.hodo@is4s.com">David Hodo</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>roslib</run_depend>
+  <build_depend>roslib</build_depend>  
+  <run_depend>roscpp</run_depend>
+  <build_depend>roscpp</build_depend>  
+  <run_depend>rosconsole</run_depend>
+  <build_depend>rosconsole</build_depend>
+  <build_depend>roscpp</build_depend>  
+  <run_depend>tf</run_depend>
+  <build_depend>tf</build_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- You can specify that this package is a metapackage here: -->
+    <!-- <metapackage/> -->
+
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
